@@ -1,5 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
+import Dashboard from "../pages/Dashboard";
 
 const MainLayout = () => {
   return (
@@ -10,7 +11,7 @@ const MainLayout = () => {
         <Navbar />
 
         <div style={{ padding: "20px" }}>
-          <h1>Dashboard Content</h1>
+          <Dashboard />
         </div>
       </div>
     </div>
